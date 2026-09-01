@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Browse authentic Khmer dishes and drinks, made with fresh ingredients and traditional recipes.",
 };
 
-export default async function FoodListPage() {
+export default async function FoodPage() {
   const response = await fetch("https://sombobaeb.cheat.casa/food-items", {
     cache: "no-store",
   });
