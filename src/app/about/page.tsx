@@ -35,7 +35,7 @@ export default function AboutPage() {
 
             <div className="mt-8 flex gap-4">
               <a
-                href="/products"
+                href="/food"
                 className="rounded-full bg-amber-700 px-6 py-3 font-semibold text-white transition hover:bg-amber-800"
               >
                 Explore Our Menu
